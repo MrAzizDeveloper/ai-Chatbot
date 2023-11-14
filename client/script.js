@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://ai-chatbot-three-liart.vercel.app/', {
+    const response = await fetch('https://chat-ai-app-cr9x.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
